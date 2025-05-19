@@ -31,3 +31,13 @@ openssl s_client -showcerts -connect fix.prime.coinbase.com:4198 < NUL `
 
 # 2) Add the leaf cert to the *Trusted People* store (safer than Root) …
 certutil -addstore TrustedPeople "C:\Certs\fix-prime.coinbase.com.pem"
+
+## 3 Creating an API Key (Very confusing)
+
+Unfortunately, Coinbase makes it very hard to create an API Key that contains the AccessKey, Service Account ID, passphrase, and Signing Key. And on top of that,
+you have to get your portfolio ID by making a call the portfolio endpoint.  First, make sure you visit the following url:
+
+https://prime.coinbase.com/portfolio
+
+When you are authenticated with the link above, you should go on the left pane and go to "Settings". Once there, on the left, you should a link for "APIs".  This is
+where you should be creating the API Key. 
