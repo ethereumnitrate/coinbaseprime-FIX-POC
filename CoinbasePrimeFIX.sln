@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoinbasePrimeFIX", "CoinbasePrimeFIX.csproj", "{87C384C9-4FEE-479B-97FB-D8A1DC808E23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87C384C9-4FEE-479B-97FB-D8A1DC808E23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87C384C9-4FEE-479B-97FB-D8A1DC808E23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87C384C9-4FEE-479B-97FB-D8A1DC808E23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87C384C9-4FEE-479B-97FB-D8A1DC808E23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7778E2E-20F6-401B-95E3-C4D60E151A89}
+	EndGlobalSection
+EndGlobal
