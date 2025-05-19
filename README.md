@@ -32,6 +32,8 @@ openssl s_client -showcerts -connect fix.prime.coinbase.com:4198 < NUL `
 # 2) Add the leaf cert to the *Trusted People* store (safer than Root) …
 certutil -addstore TrustedPeople "C:\Certs\fix-prime.coinbase.com.pem"
 
+---
+
 ## 3 Creating an API Key (Very confusing)
 
 Unfortunately, Coinbase makes it very hard to create an API Key that contains the AccessKey, Service Account ID, passphrase, and Signing Key. And on top of that,
